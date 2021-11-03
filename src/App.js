@@ -1,4 +1,4 @@
-import './index.css';
+import './index.scss';
 import React from 'react';
 import { Score } from './features/score/Score.jsx';
 import { Board } from './features/board/Board.jsx';

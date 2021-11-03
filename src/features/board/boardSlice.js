@@ -67,7 +67,7 @@ const initialState = [
       words.push(newWordPairs[wordIndex])
       newWordPairs.splice(wordIndex, 1)
     }
-  
+    console.log(words)
     return words;
   } 
   

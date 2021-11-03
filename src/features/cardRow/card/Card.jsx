@@ -2,7 +2,7 @@ import React from 'react';
 import { useSelector, useDispatch } from 'react-redux';
 import { selectVisibleIDs, flipCard, selectMatchedIDs, resetCards} from '../../board/boardSlice';
 
-let cardLogo = "https://static-assets.codecademy.com/Courses/Learn-Redux/matching-game/codecademy_logo.png";
+let cardLogo = "https://scontent.ftrd1-1.fna.fbcdn.net/v/t1.6435-9/245701859_10159350429736257_5456058273209449770_n.jpg?_nc_cat=100&_nc_rgb565=1&ccb=1-5&_nc_sid=730e14&_nc_ohc=drASpl38hzwAX_HKiu9&_nc_ht=scontent.ftrd1-1.fna&oh=6a6ed272171626816440506d8077f101&oe=61A67185";
 
 
 export const Card = ({id, contents}) => {
